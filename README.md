@@ -1,4 +1,5 @@
 Create a simple file explorer component that consists of two panes:
+![demo 2024-08-04 03-19-26.gif](demo%202024-08-04%2003-19-26.gif)
 
 - Folder hierarchy on the left pane
 - File list and document view on the right pane
