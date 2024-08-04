@@ -1,0 +1,90 @@
+.App {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.file-explorer {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+}
+
+.folder-pane,
+.file-view-pane {
+  padding: 20px;
+}
+
+.folder-pane {
+  width: 30%;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+.file-view-pane {
+  width: 70%;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.folder {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+.folder:hover {
+  background-color: #e6e6e6;
+}
+
+.folder.active {
+  background-color: #d0d0d0;
+}
+
+.file-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.file {
+  cursor: pointer;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+.file:hover {
+  background-color: #f0f0f0;
+}
+
+.file-content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  height: 100%;
+  box-sizing: border-box;
+  white-space: pre-wrap;
+}
+
+.no-file {
+  color: #888;
+  text-align: center;
+  margin-top: 50%;
+}
